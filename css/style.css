@@ -1,0 +1,17 @@
+body {
+  margin : 0;
+}
+#main {
+  align-items: center;
+
+  justify-content: center;
+}
+
+#img-div {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
