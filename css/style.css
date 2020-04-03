@@ -1,17 +1,52 @@
 body {
-  margin : 0;
+  margin: 0;
+  background-color: lightgrey;
 }
-#main {
-  align-items: center;
 
-  justify-content: center;
+#header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#title {
+  color: #0000ff;
+  text-align: center;
+  font-size: 55px;
+  text-shadow: 4px 4px orange;
+  margin-bottom: 0;
+}
+
+#image {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+  align-self: center;
 }
 
 #img-div {
   display: block;
-  width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  align-self: center;
+}
 
+#img-caption {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* .soft {
+  margin-left: 40%;
+  float: left;
+} */
+
+#tribute-info {
+  text-align: left;
+}
+
+#tribute-link {
+  text-align: center;
 }
